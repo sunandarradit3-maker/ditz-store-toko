@@ -1,0 +1,53 @@
+@import url("https://cdn.jsdelivr.net/gh/sunandarradit3-maker/ditz-store-toko@5ab0eb6c30463046c176cc8c7c282381e365cc42/styles.css");
+
+/* Mobile presentation fix: keep the main hero first and prevent the founder portrait from filling the whole screen. */
+@media (max-width: 720px) {
+  .hero-grid {
+    align-items: start;
+  }
+
+  .hero-copy {
+    order: 1;
+  }
+
+  .hero-card {
+    order: 2;
+    width: min(100%, 360px);
+    margin-inline: auto;
+    transform: none;
+  }
+
+  .founder-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .founder-copy {
+    order: 1;
+  }
+
+  .founder-photo {
+    order: 2;
+    width: min(100%, 360px);
+    margin-inline: auto;
+    border-radius: 22px;
+  }
+
+  .founder-photo img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    object-position: center top;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero h1 {
+    font-size: 44px;
+  }
+
+  .founder-photo {
+    width: min(100%, 320px);
+  }
+}
