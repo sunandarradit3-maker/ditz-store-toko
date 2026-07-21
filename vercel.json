@@ -4,6 +4,12 @@
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": true,
+  "rewrites": [
+    {
+      "source": "/styles.css",
+      "destination": "/assets/mobile-fix.css"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
