@@ -1,0 +1,1 @@
+import "./globals.css";export const metadata={title:"DiTz Store — Digital Products & Web Experiences",description:"Portfolio, web service store, and digital products by DiTz Store."};export default function RootLayout({children}){return <html lang="id"><body>{children}</body></html>}
