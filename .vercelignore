@@ -1,0 +1,9 @@
+app
+components
+lib
+supabase
+static
+next.config.mjs
+jsconfig.json
+.env.example
+README.txt
