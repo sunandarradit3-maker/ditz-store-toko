@@ -1,0 +1,95 @@
+{
+  "brand": {
+    "name": "DiTz Store",
+    "tagline": "Premium Quality, Trusted Choice",
+    "whatsapp": "6287739435496",
+    "whatsappDisplay": "0877-3943-5496",
+    "email": "ditzstoreofficial@gmail.com",
+    "dana": "087739435496",
+    "address": "Rahayu, Bandung, Jawa Barat",
+    "hours": [
+      "Senin–Sabtu: 09.00–21.00 WIB",
+      "Minggu: 13.00–20.00 WIB"
+    ]
+  },
+  "projects": [
+    {
+      "title": "DiTz Qur'an",
+      "category": "Education",
+      "description": "Website Al-Qur'an digital yang ringan, nyaman dibaca, dan responsif untuk pengguna mobile.",
+      "url": "https://ditz-quran.vercel.app/",
+      "image": "https://image.thum.io/get/width/1200/crop/750/noanimate/https://ditz-quran.vercel.app/"
+    },
+    {
+      "title": "DiTz Music",
+      "category": "Music Platform",
+      "description": "Pengalaman streaming musik dengan UI modern, navigasi familier, dan fokus pada kenyamanan pengguna.",
+      "url": "https://ditz-music-spotify-ui.vercel.app/",
+      "image": "https://image.thum.io/get/width/1200/crop/750/noanimate/https://ditz-music-spotify-ui.vercel.app/"
+    },
+    {
+      "title": "DiTz Komik",
+      "category": "Entertainment",
+      "description": "Platform baca komik dengan katalog, pencarian, dan tampilan baca yang nyaman di berbagai perangkat.",
+      "url": "https://ditz-komik.vercel.app/",
+      "image": "https://image.thum.io/get/width/1200/crop/750/noanimate/https://ditz-komik.vercel.app/"
+    }
+  ],
+  "packages": [
+    {
+      "id": "student-starter",
+      "group": "PELAJAR",
+      "name": "Pelajar Starter",
+      "price": 255000,
+      "badge": "Paling Hemat",
+      "featured": false,
+      "features": ["Landing page 1 halaman", "Responsif HP dan desktop", "Tombol WhatsApp", "Deploy gratis Vercel", "Subdomain .vercel.app", "1 kali revisi", "Tanpa VPS dan admin panel"]
+    },
+    {
+      "id": "student-pro",
+      "group": "PELAJAR",
+      "name": "Pelajar Pro",
+      "price": 455000,
+      "badge": "Tugas dan Portfolio",
+      "featured": true,
+      "features": ["Maksimal 3 halaman", "Desain lebih custom", "Form kontak dan galeri", "Deploy gratis Vercel", "2 kali revisi", "Cocok untuk tugas dan organisasi"]
+    },
+    {
+      "id": "umkm-basic",
+      "group": "UMKM",
+      "name": "UMKM Basic",
+      "price": 655000,
+      "badge": "Mulai Jualan",
+      "featured": false,
+      "features": ["Maksimal 3 halaman", "Profil usaha dan katalog", "Tombol WhatsApp", "Responsif", "Deploy gratis Vercel", "2 kali revisi", "Tanpa VPS"]
+    },
+    {
+      "id": "silver",
+      "group": "UMKM",
+      "name": "Silver",
+      "price": 1205000,
+      "badge": "Best Value",
+      "featured": true,
+      "features": ["Maksimal 5 halaman", "Desain custom premium", "Katalog produk", "Form pemesanan", "SEO dasar", "VPS standar 1 bulan", "3 kali revisi"]
+    },
+    {
+      "id": "gold",
+      "group": "UMKM",
+      "name": "Gold",
+      "price": 2255000,
+      "badge": "Bisnis Bertumbuh",
+      "featured": false,
+      "features": ["Website full-stack", "Admin panel sederhana", "Database dan login admin", "Kelola produk atau konten", "VPS standar 2 bulan", "Backup dasar", "5 kali revisi"]
+    },
+    {
+      "id": "platinum",
+      "group": "UMKM",
+      "name": "Platinum",
+      "price": 4505000,
+      "badge": "Paling Lengkap",
+      "featured": true,
+      "startingFrom": true,
+      "features": ["Desain eksklusif", "Sistem custom", "Admin panel lengkap", "Database dan autentikasi", "Dashboard statistik", "VPS standar 3 bulan", "Prioritas pengerjaan"]
+    }
+  ]
+}
